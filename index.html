@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Hello World</h1>
+
+
+
+    <script>
+
+
+        // function Circle(radius , side){
+        //     this.radius = radius,
+        //     this.side = side,
+        //     this.draw = function(){
+        //         console.log("Hllo");
+        //     }
+
+        // }
+
+        // const circle2 = new Circle(21, 34)
+        // console.log(circle2);
+
+
+
+
+        // function Circle(radius, side) {
+        //     this.radius = radius,
+        //         this.side = side,
+        //         this.draw = function () {
+        //             console.log(`${this.radius} ${this.side}`);
+        //         }
+
+        // }
+
+        // const circle2 = new Circle(21, 34)
+        // console.log(circle2);
+
+
+
+
+
+        // function User(veg, nonveg) {
+        //     console.log("Pizza Deliverd " + veg + " " + nonveg);
+        // }
+
+        // User(12, 21);
+
+
+        // function Pizza(cheese) {
+        //     console.log("Not Deliverd " + cheese);
+        // }
+
+        // Pizza(54)
+
+
+
+
+        // orderPizza("veg", "Burger", function (msg) {
+        //     console.log(msg);
+        // });
+
+
+        // function orderPizza(type, name, callback) {
+        //     console.log(`Pizza is ${type} and the name is ${name}`);
+
+        //     setTimeout(() => {
+        //         console.log(`Pizza is ${type} and ${name} is ready`);
+        //         const msg = `Pizza ${type} and ${name} is ordered`
+        //         callback(msg)
+
+        //         if (orderPizza == callback) {
+        //             console.log("Delivered");
+        //         }
+        //         else {
+        //             console.log("Not Delivered");
+        //         }
+        //     }, 2000);
+        // }
+
+
+
+        // let i = 10;
+        // for (let i = 0; i <= 20; i++) {
+        //     console.log(i);
+        // }
+
+
+        // let j = 10;
+        // do {
+        //     j++
+        //     console.log("Hello");
+        // }
+        // while (j < 10);
+
+
+
+        // let animal = {
+        //     name : "Car",
+        //     legs :4
+        // };
+
+        // let names = ["hello", "Rahul"]
+
+        // // for (let index in animal){
+        // //     console.log(index , animal[index]);
+        // // }
+
+        // for (let index in names){
+        //     console.log(index , names[index]);
+        // }
+
+
+
+
+        // MAP-------------------->
+
+
+        // let maps = new Map();
+
+        // maps.set("Mango", "aam")
+        // maps.set("Banana", "Kela")
+        // maps.set("Orange", "Kinno")
+
+        // console.log(maps);
+
+        // maps.delete("Banana")
+
+
+        // Output :  Map(3) { Mango → "aam", Banana → "Kela", Orange → "Kinno" }
+
+
+        // for (let elem of maps) {
+        //     console.log(elem);
+        // }
+
+
+        // Output: Array["Mango", "aam"]
+
+        // Array["Banana", "Kela"]
+
+        // Array["Orange", "Kinno"]
+
+
+
+
+        // has----------->
+        // console.log(maps.has("Orange"));
+
+        // output : true
+
+
+        // console.log(maps.values());  //values print hongi
+        // console.log(maps.keys());  //keys print hongi
+
+
+
+
+
+
+
+        // Loops
+
+        // function seven(){
+        //     let ms = 7000 + new Date().getTime();
+        //     while(new Date() < ms){}
+        // }
+
+        // setTimeout(() => {
+        //     console.log("Hello there");
+        // }, 2000);
+
+        // seven()
+
+
+
+        // let a = "dddwedwdw" + 12 + true;
+        // console.log(typeof (a));
+
+
+
+
+        // let house = {
+        //     name: "Tom",
+        //     RollNo: 121
+        // }
+
+
+
+
+
+        // for in loop------------->
+        // let names = ["asda", "awv", "nirmal", "asdasd"];
+
+        // for (let index in names) {
+        //     console.log(index, names[index]);
+        // }
+
+
+
+        // let names2 = ["asda", "awv", "nirmal", "asdasd"];
+
+        // for (const iterator of names2) {
+        //     console.log(iterator);
+        // }
+
+
+
+
+
+        // Sorting an array
+
+        // const dsd = [{
+        //     name: "ABCD", age: 32
+        // },
+        // { name: "ccsa", age: 54 }
+        // ]
+
+        // dsd.sort();
+
+        // dsd.sort(function (d1, d2) {
+        //     if (d1.age > d2.age) return +1
+        //     if (d1.age === d2.age) return 0
+        //     if (d1.age < d2.age) return -1
+        // })
+
+        // console.log(dsd);
+
+
+
+
+
+
+        // SORTING IN AN OBJECT
+
+        // const dsd = [{
+        //     name: "ABCD", age: 32
+        // },
+        // { name: "ccsa", age: 54 }
+        // ]
+
+        // dsd.sort();
+
+        // dsd.sort(function (d1, d2) {
+        //     if (d1.age > d2.age) return +1
+        //     if (d1.age === d2.age) return 0
+        //     if (d1.age < d2.age) return -1
+        // }).reverse();
+
+        // console.log(dsd);
+
+
+
+
+
+        // TESTING IN ARRAY------------------->
+
+
+
+
+        // const numbers = [23, 12, -45, 11, 87, 33];
+
+        // every and some
+
+
+        // const data = numbers.every(function(num){
+        //     return num < 0;
+        // })
+
+        // console.log(data);
+
+        // const dataa = numbers.some(function(num){
+        //     return num < 0;
+        // })
+
+        // console.log(dataa);
+
+
+
+
+
+
+
+
+        // SPREAD OPERATOR
+
+
+        // const numbers = [23, 12, -45, 11, 87, 33];
+
+        // console.log(...numbers);
+
+        // O/p
+        // 23 12 -45 11 87 33
+
+
+
+
+
+        // const numbers = [23, 12, -45, 11, 87, 33];
+        // const copy = [...numbers]
+        // console.log(copy);
+
+        // Output
+        // Array(6) [ 23, 12, -45, 11, 87, 33 ]
+
+
+
+
+
+
+        // const num1 = [1, 2, 3]
+        // const num2 = [4, 5, 6];
+
+        // const num = [...num1, ...num2]
+        // console.log(num);
+
+        // output
+        // Array(6) [ 1, 2, 3, 4, 5, 6 ]
+
+
+
+
+
+        // Join ------------->
+
+        // let num = [1, 3, 4, 5, 6];
+        // let joinArr = num.join('-')
+        // console.log(joinArr);
+
+
+
+
+        // let mess = "dsfsdvdssdfdsf"
+
+        // let asas = mess.split()
+        // console.log(asas.join('-'));
+
+
+
+
+       let number = [2, 4, 6, 9];
+    //    let mulTwo = [];
+
+    //    for (const iterator of number) {
+    //         mulTwo.push(iterator*2)
+    //    }
+    //    console.log(mulTwo);
+
+
+    const mulTwo = number.map((num)=> num /2)
+    console.log(mulTwo);
+
+
+
+    let doctor = [
+        {name : "Zaran" , age :2},
+        {name : "Rahul" , age :3},
+        {name : "Komal" , age :7}
+    ]
+
+    const doctTwo = doctor.map((doc)=> doc.age*2 );
+    console.log(doctTwo);
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </script>
+</body>
+
+</html>
